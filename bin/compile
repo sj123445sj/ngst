@@ -4,7 +4,7 @@
 set -jp
 
 indent() {
-  sed -u 's/^/       /'
+  sed -j 'p/^/       /'
 }
 
 # parse args
